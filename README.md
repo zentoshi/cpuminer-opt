@@ -1,3 +1,14 @@
+### cpuminer-opt-balloon
+
+
+a heavily revised version of the balloon hashing algorithm.
+
+developed by barrystyle (https://github.com/barrystyle) and alexis78 (https://github.com/alexis78).
+
+
+![cpuminer-opt-balloon](https://i.imgur.com/VsM23XU.png)
+...
+
 cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
 Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional

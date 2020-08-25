@@ -60,6 +60,8 @@ cpuminer_SOURCES = \
   algo/blake/pentablake-gate.c \
   algo/blake/pentablake-4way.c \
   algo/blake/pentablake.c \
+  algo/balloon/balloon.cpp \
+  algo/balloon/balloon-hash-gate.c \
   algo/bmw/sph_bmw.c \
   algo/bmw/bmw256-hash-4way.c \
   algo/bmw/bmw512-hash-4way.c \

@@ -26,10 +26,8 @@ int scanhash_balloon(struct work *work, uint32_t max_nonce,
         pdata[19] = ++n;
         be32enc(&endiandata[19], n);
         alx_balloon(endiandata, hash32);
-        if (hash32[7] <= ptarget && fulltest(hash32, ptarget)) {
+        if (fulltest(hash32, ptarget)) {
             submit_solution( work, hash32, mythr );
-            *hashes_done = n - first_nonce + 1;
-            return 1;
         }
     } while (n < max_nonce && !work_restart[thr_id].restart);
 
